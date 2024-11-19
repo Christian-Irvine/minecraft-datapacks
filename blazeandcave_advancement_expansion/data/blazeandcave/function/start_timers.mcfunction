@@ -1,5 +1,8 @@
 # Function runs at the beginning of a load
 
+# World border ones
+execute unless data storage blazeandcave_advancement_expansion:distance input run function blazeandcave:set_world_expansion {distance:5}
+
 # # Adds/updates scoreboard objectives and settings
 scoreboard objectives add bac_advancements dummy {"text":"Advancements"}
 scoreboard objectives add bac_advfirst dummy {"text":"First Advancements"}
