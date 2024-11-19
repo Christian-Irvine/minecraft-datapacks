@@ -1,0 +1,1 @@
+tellraw @a {"text": "Border Expansion loaded", "color": "#3295A8"}
