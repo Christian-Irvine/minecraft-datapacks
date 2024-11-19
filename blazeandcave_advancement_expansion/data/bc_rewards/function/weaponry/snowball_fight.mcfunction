@@ -106,3 +106,5 @@ execute if score coop bac_settings matches 2 if entity @s[team=bac_team_red] run
 execute if score coop bac_settings matches 2 if entity @s[team=bac_team_light_purple] run advancement grant @a[team=bac_team_light_purple] only blazeandcave:weaponry/snowball_fight
 execute if score coop bac_settings matches 2 if entity @s[team=bac_team_yellow] run advancement grant @a[team=bac_team_yellow] only blazeandcave:weaponry/snowball_fight
 execute if score coop bac_settings matches 2 if entity @s[team=bac_team_white] run advancement grant @a[team=bac_team_white] only blazeandcave:weaponry/snowball_fight
+
+function blazeandcave:on_advancement
