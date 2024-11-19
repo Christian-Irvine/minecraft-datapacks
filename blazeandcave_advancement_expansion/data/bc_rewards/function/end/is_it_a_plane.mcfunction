@@ -106,3 +106,5 @@ execute if score coop bac_settings matches 2 if entity @s[team=bac_team_red] run
 execute if score coop bac_settings matches 2 if entity @s[team=bac_team_light_purple] run advancement grant @a[team=bac_team_light_purple] only minecraft:adventure/spyglass_at_dragon
 execute if score coop bac_settings matches 2 if entity @s[team=bac_team_yellow] run advancement grant @a[team=bac_team_yellow] only minecraft:adventure/spyglass_at_dragon
 execute if score coop bac_settings matches 2 if entity @s[team=bac_team_white] run advancement grant @a[team=bac_team_white] only minecraft:adventure/spyglass_at_dragon
+
+function blazeandcave:on_advancement
