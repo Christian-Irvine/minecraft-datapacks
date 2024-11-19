@@ -1,0 +1,1 @@
+function blazeandcave:grow_border with storage blazeandcave_advancement_expansion:distance input
