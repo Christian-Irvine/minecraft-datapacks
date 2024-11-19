@@ -125,3 +125,4 @@ execute if score coop bac_settings matches 2 if entity @s[team=bac_team_red] run
 execute if score coop bac_settings matches 2 if entity @s[team=bac_team_light_purple] run advancement grant @a[team=bac_team_light_purple] only blazeandcave:biomes/captain_america
 execute if score coop bac_settings matches 2 if entity @s[team=bac_team_yellow] run advancement grant @a[team=bac_team_yellow] only blazeandcave:biomes/captain_america
 execute if score coop bac_settings matches 2 if entity @s[team=bac_team_white] run advancement grant @a[team=bac_team_white] only blazeandcave:biomes/captain_america
+function blazeandcave:on_advancement
