@@ -1,0 +1,1 @@
+$scoreboard players add $(team) team_scores $(score)
