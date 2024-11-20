@@ -1,0 +1,13 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 19011221,
+    "separation": 3,
+    "spacing": 7,
+    "spread_type": "triangular"
+  },
+  "structures": [{
+    "structure": "comedy:ohio_sign",
+    "weight": 1
+  }]
+}

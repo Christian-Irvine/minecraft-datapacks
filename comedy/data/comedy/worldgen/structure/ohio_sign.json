@@ -1,0 +1,22 @@
+{
+  "biomes": "#comedy:has_structure/ohio_sign",
+	"adapt_noise": false,
+	"liquid_settings": "ignore_waterlogging",
+	"spawn_overrides": {},
+	"type": "minecraft:jigsaw",
+	"start_pool": "comedy:ohio_sign",
+	"size": 7,
+	"step": "surface_structures",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 33
+    },
+    "max_inclusive": {
+      "absolute": 70
+    }
+  },
+	"max_distance_from_center": 80,
+	"terrain_adaptation": "beard_box",
+	"use_expansion_hack": false
+}
